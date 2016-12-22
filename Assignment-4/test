@@ -1,0 +1,25 @@
+ main () {
+	int a = 10 ; float v=1;
+	b=10;
+	while ( 1 ) {
+		int d = 11;
+	}
+	if( a<=10 && a>=3) || (a>=11 && a<111)){
+		a=12;
+	}
+	else if(!a) {
+		a=11;
+	}
+	else a=112;
+
+	if(b==10)
+		int c=10;
+	else if(b==12)
+		int c=12;
+
+	int i;
+	for(i=0;i<10;i=i+1){
+		a=a+i;
+	}
+	
+}
