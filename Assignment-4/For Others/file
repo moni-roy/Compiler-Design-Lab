@@ -1,0 +1,23 @@
+int main()
+{
+	int a=10;
+	int b=a+a;
+	int c;
+	while ( 1 ) {
+		int d = 11;
+	}
+	if( a=10  ){
+		c=12;
+	}
+	else if(a>10) {
+		a=11;
+	}
+	else{
+		b=111;
+	}
+
+	int i;
+	for(;;){
+		a=a+i;
+	}
+}
