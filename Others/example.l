@@ -1,0 +1,20 @@
+%{
+#include <stdio.h>
+int c;
+%}
+
+%%
+[a-z]	{	c=yytext[0];
+			yylval = c-'a';
+			return LETTER;
+		}
+
+[0-9] 		{	c = yytext[0];
+			yylval = c-'0';
+			return DIGIT;
+		}
+[^a-z0-9] 	{	c=yytext[0];
+			return c;
+		}
+%%
+
