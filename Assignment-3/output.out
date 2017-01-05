@@ -1,0 +1,68 @@
+a 5 -2
+b 1 -2
+c 1 -2
+d 5 -2
+a 1 -2
+b 5 -2
+cd 2 -2
+e 3 -2
+f 5 -2
+a 5 -2
+bc 1 -2
+d 5 -2
+e 5 -2
+a 5 -2
+bc 2 -2
+d 5 -2
+e 5 -2
+a 5 -2
+bc 3 -2
+d 5 -2
+e 5 -2
+abcdefghijklm 1 0
+aeiou 5 -1
+aeiou 7 6
+abc 6 3
+c 5 -2
+a 5 -2
+b 2 -2
+da 1 -2
+f 5 -2
+d 5 -2
+b 1 -2
+a 5 -2
+def 7 2
+g 5 -2
+h 5 -2
+d 5 -2
+e 5 -2
+f 5 -2
+klmnop 1 0
+p 2 -2
+acccd :: "ab*c*d" "[a-m]*" 
+abbbbbcccc :: "[a-m]*" 
+bcdcdef :: "a*b(cd)+e?f" "[a-m]*" 
+defkmnpmpp :: "def[k-p]*p+" 
+acbcabbf :: "[a-m]*" "[a-c]{3}cab+(da)*f" 
+pqrstdd :: None
+dbaabggh :: "[a-m]*" 
+dbaghgh :: "[a-m]*" "db*a[^def]{2}gh" 
+dbg :: "[a-m]*" 
+dbbbbamkgh :: "[a-m]*" "db*a[^def]{2}gh" 
+abc :: "[a-m]*" 
+abcbcde :: "a(bc)*de" "a(bc)+de" "[a-m]*" 
+blackmail :: "[a-m]*" 
+imbecile :: "[a-m]*" 
+above :: None
+below :: None
+b :: "[a-m]*" "[^aeiou]" 
+c :: "[a-m]*" "[^aeiou]" 
+a :: "[a-m]*" 
+e :: "[a-m]*" 
+rhythm :: "[^aeiou]{6}" 
+syzygy :: "[^aeiou]{6}" 
+rhythms :: None
+allowed :: None
+acccd :: "ab*c*d" "[a-m]*" 
+abbbbbcccc :: "[a-m]*" 
+bcdcdef :: "a*b(cd)+e?f" "[a-m]*" 
